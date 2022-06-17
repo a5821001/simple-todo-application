@@ -18,7 +18,11 @@ function addTask(title) {
     const task = { isDone: false }
 
     // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
+
+    task.title = "he";
+
     task.title = "Hello World";
+
 
     // 以降は無視して良い
     tasks.push(task);
