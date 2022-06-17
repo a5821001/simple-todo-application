@@ -14,7 +14,6 @@ let tasks = [
  * 注) 登録ボタンを押したときに、この関数が呼ばれる処理は既に書かれています。
  * 
  */
-
 function addTask(title) {
     const task = { isDone: false }
 
